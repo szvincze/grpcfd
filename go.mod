@@ -1,10 +1,17 @@
 module github.com/edwarnicke/grpcfd
 
-go 1.14
+go 1.21
 
 require (
 	github.com/edwarnicke/serialize v0.0.0-20200705214914-ebc43080eecf
 	github.com/pkg/errors v0.9.1
-	golang.org/x/sys v0.0.0-20190215142949-d0b11bdaac8a
-	google.golang.org/grpc v1.31.0
+	golang.org/x/sys v0.17.0
+	google.golang.org/grpc v1.63.2
+)
+
+require (
+	golang.org/x/net v0.21.0 // indirect
+	golang.org/x/text v0.14.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20240227224415-6ceb2ff114de // indirect
+	google.golang.org/protobuf v1.33.0 // indirect
 )
